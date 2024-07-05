@@ -6,30 +6,30 @@
 ## Data Exploration and Preprocessing:
 
 ### Data Loading and Initial Exploration: 
-•	The dataset is loaded using pandas, and initial exploration involves checking the first few rows, summary statistics, and data types of the columns. 
+ The dataset is loaded using pandas, and initial exploration involves checking the first few rows, summary statistics, and data types of the columns. 
 ### Summary Statistics: 
-•	Summary statistics provide insights into the distribution and scale of the data. 
+Summary statistics provide insights into the distribution and scale of the data. 
 ### Checking for Missing Values: 
-•	The dataset is checked for missing values, and it was found that there are no missing values in any of the columns. This ensures that the dataset is complete and ready for analysis without the need for imputation. 
+The dataset is checked for missing values, and it was found that there are no missing values in any of the columns. This ensures that the dataset is complete and ready for analysis without the need for imputation. 
 ### Distribution of Classes: 
-•	The distribution of the classes (fraudulent vs. non-fraudulent transactions) is examined to understand the class imbalance, which is crucial for model training and evaluation. 
+The distribution of the classes (fraudulent vs. non-fraudulent transactions) is examined to understand the class imbalance, which is crucial for model training and evaluation. 
 ### Handling Data Imbalance: 
 Given the heavily imbalanced nature of the data, several approaches are employed to address this imbalance:
-•	Check and Mitigate Skewness: Explaining the techniques used to handle skewness in the data. 
-•	Handling Data Imbalance: Describing the methods used to balance the dataset (e.g., SMOTE, ADASYN). Handling data imbalance as we see only 0.17% records are the fraud transactions 
+Check and Mitigate Skewness: Explaining the techniques used to handle skewness in the data. 
+Handling Data Imbalance: Describing the methods used to balance the dataset (e.g., SMOTE, ADASYN). Handling data imbalance as we see only 0.17% records are the fraud transactions 
 
 ## Model Building
 ### Algorithms Used: 
-•	The model will be trained using a variety of algorithms, including Logistic Regression, Decision Tree, Random Forest, and XGBoost. Each algorithm has unique strengths.
-•	 by comparing their performance, we can determine the most effective one for detecting fraudulent transactions.
+The model will be trained using a variety of algorithms, including Logistic Regression, Decision Tree, Random Forest, and XGBoost. Each algorithm has unique strengths.
+by comparing their performance, we can determine the most effective one for detecting fraudulent transactions.
 ### Hyperparameter Tuning: 
-•	The process of hyperparameter tuning will involve using Grid Search Cross Validation to identify the optimal values for the model's hyperparameters. 
-•	This technique systematically searches through a predefined set of hyperparameters and evaluates their performance using cross-validation, ensuring that the model achieves the best possible performance on unseen data.
+The process of hyperparameter tuning will involve using Grid Search Cross Validation to identify the optimal values for the model's hyperparameters. 
+This technique systematically searches through a predefined set of hyperparameters and evaluates their performance using cross-validation, ensuring that the model achieves the best possible performance on unseen data.
 
 
 ## Results:
-•	The evaluation results for each model will be presented, highlighting the key metrics of Precision, Recall, and ROC-AUC. These metrics will provide a comprehensive view of the model's performance, emphasizing its effectiveness in identifying fraudulent transactions while maintaining a balance between false positives and false negatives.
-•	The results will help determine which model and hyperparameter settings achieve the best performance in detecting fraud within this imbalanced dataset.
+The evaluation results for each model will be presented, highlighting the key metrics of Precision, Recall, and ROC-AUC. These metrics will provide a comprehensive view of the model's performance, emphasizing its effectiveness in identifying fraudulent transactions while maintaining a balance between false positives and false negatives.
+The results will help determine which model and hyperparameter settings achieve the best performance in detecting fraud within this imbalanced dataset.
 
 
   
