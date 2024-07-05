@@ -28,7 +28,7 @@ Given the heavily imbalanced nature of the data, several approaches are employed
 
 
 ## Results:
-•	The evaluation results for each model will be presented, highlighting the key metrics of Precision, Recall, and ROC-AUC. These metrics will provide a comprehensive view of the model's performance, emphasizing its effectiveness in identifying fraudulent transactions while maintaining a balance between false positives and false negatives. 
+•	The evaluation results for each model will be presented, highlighting the key metrics of Precision, Recall, and ROC-AUC. These metrics will provide a comprehensive view of the model's performance, emphasizing its effectiveness in identifying fraudulent transactions while maintaining a balance between false positives and false negatives.
 •	The results will help determine which model and hyperparameter settings achieve the best performance in detecting fraud within this imbalanced dataset.
 
 
