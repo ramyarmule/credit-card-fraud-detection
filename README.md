@@ -18,6 +18,15 @@ Given the heavily imbalanced nature of the data, several approaches are employed
 •	Check and Mitigate Skewness: Explaining the techniques used to handle skewness in the data. 
 •	Handling Data Imbalance: Describing the methods used to balance the dataset (e.g., SMOTE, ADASYN). Handling data imbalance as we see only 0.17% records are the fraud transactions 
 
+## Model Building
+### Algorithms Used: 
+•	The model will be trained using a variety of algorithms, including Logistic Regression, Decision Tree, Random Forest, and XGBoost. Each algorithm has unique strengths.
+•	 by comparing their performance, we can determine the most effective one for detecting fraudulent transactions.
+### Hyperparameter Tuning: 
+•	The process of hyperparameter tuning will involve using Grid Search Cross Validation to identify the optimal values for the model's hyperparameters. 
+•	This technique systematically searches through a predefined set of hyperparameters and evaluates their performance using cross-validation, ensuring that the model achieves the best possible performance on unseen data.
+
+
 ## Results:
 •	The evaluation results for each model will be presented, highlighting the key metrics of Precision, Recall, and ROC-AUC. These metrics will provide a comprehensive view of the model's performance, emphasizing its effectiveness in identifying fraudulent transactions while maintaining a balance between false positives and false negatives. 
 •	The results will help determine which model and hyperparameter settings achieve the best performance in detecting fraud within this imbalanced dataset.
