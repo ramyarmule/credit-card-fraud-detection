@@ -1,19 +1,19 @@
-### credit-card-fraud-detection
+# credit-card-fraud-detection
 
 ## Problem Statement:
    A credit card is one of the most used financial products to make online purchases and payments. Though the Credit cards can be a convenient way to manage your finances, they can also be risky. Credit card fraud is the unauthorized use of someone else's credit card or credit card information to make purchases or withdraw cash. It is important that credit card companies are able to recognize fraudulent credit card transactions so that customers are not charged for items that they did not purchase. The dataset contains transactions made by credit cards in September 2013 by European cardholders. This dataset presents transactions that occurred in two days, where we have 492 frauds out of 284,807 transactions. The dataset is highly unbalanced, the positive class (frauds) account for 0.172% of all transactions.
 
 ## Data Exploration and Preprocessing:
 
-# Data Loading and Initial Exploration: 
+### Data Loading and Initial Exploration: 
 •	The dataset is loaded using pandas, and initial exploration involves checking the first few rows, summary statistics, and data types of the columns. 
-# Summary Statistics: 
+### Summary Statistics: 
 •	Summary statistics provide insights into the distribution and scale of the data. 
-# Checking for Missing Values: 
+### Checking for Missing Values: 
 •	The dataset is checked for missing values, and it was found that there are no missing values in any of the columns. This ensures that the dataset is complete and ready for analysis without the need for imputation. 
-# Distribution of Classes: 
+### Distribution of Classes: 
 •	The distribution of the classes (fraudulent vs. non-fraudulent transactions) is examined to understand the class imbalance, which is crucial for model training and evaluation. 
-# Handling Data Imbalance: 
+### Handling Data Imbalance: 
 Given the heavily imbalanced nature of the data, several approaches are employed to address this imbalance:
 •	Check and Mitigate Skewness: Explaining the techniques used to handle skewness in the data. 
 •	Handling Data Imbalance: Describing the methods used to balance the dataset (e.g., SMOTE, ADASYN). Handling data imbalance as we see only 0.17% records are the fraud transactions 
